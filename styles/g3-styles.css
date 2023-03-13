@@ -1,5 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Open+Sans&family=Poppins:wght@500;600&family=Work+Sans:wght@400;500&display=swap');
+
 * {
     margin: 0;
+}
+
+/* Common styles */
+body {
+    font-family: 'EB Garamond', serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Work Sans', sans-serif;
 }
 
 /* header styles */
@@ -28,4 +38,48 @@ nav li {
 nav li a {
     text-decoration: none;
     color: #424242;
+}
+
+/* main section styles */
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Architecture Group styles */
+.arc-group {
+    width: 860px;
+    height: 225px;
+    margin-top: 100px;
+    margin-left: 150px;
+}
+
+.arc-group-info {
+    text-align: center;
+}
+
+.arc-title {
+    font-style: Bold;
+    font-size: 64px;
+    color: #131313;
+}
+
+.arc-description {
+    margin-top: 10px;
+    color: #727272;
+}
+
+.btn-primary {
+    margin-top: 50px;
+    background-color: #FF900E;
+    border: none;
+    color: #FFFFFF;
+    padding: 20px 24px;
+    border-radius: 5%;
+}
+
+.arc-group .arc-image img {
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 65px;
 }
