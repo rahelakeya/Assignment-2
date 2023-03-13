@@ -78,8 +78,60 @@ main {
     border-radius: 5%;
 }
 
-.arc-group .arc-image img {
+/* Banner style  */
+.bannar {
+    height: 700px;
+}
+
+.banner img {
     width: 100%;
-    margin-top: 100px;
-    margin-bottom: 65px;
+}
+
+/*--- Feature styles--- */
+.features {
+    margin-top: 65px;
+}
+
+.feature {
+    display: flex;
+    gap: 73px;
+}
+
+.feature-images {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    grid-column-gap: 24px;
+    grid-row-gap: 24px;
+}
+
+.feature-images img {
+    height: 342px;
+    width: 342px;
+}
+
+.feature-info {
+    width: 537px;
+    height: 304px;
+    margin-top: 300px;
+}
+
+.feature-title {
+    font-size: 45px;
+    margin-bottom: 24px;
+}
+
+.list-1 {
+    color: #727272;
+}
+
+.list-2 {
+    color: #131313;
+}
+
+.list-3 {
+    color: #FF900E;
+}
+
+.feature-description {
+    color: #727272;
 }
